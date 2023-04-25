@@ -1,0 +1,51 @@
+.about {
+  flex-direction: column;
+  margin-top: 3em;
+}
+
+.about__name {
+  color: var(--clr-primary);
+}
+
+.about__role {
+  margin-top: 1.2em;
+  font-size: 2.4rem;
+}
+
+.about__desc {
+  font-size: 1rem;
+  max-width: 600px;
+}
+
+.about__desc {
+  margin-top: 2.4em;
+  font-weight: 600;
+  line-height: 1.4rem;
+}
+
+.about__contact {
+  margin-top: 2.4em;
+  font-weight: bold;
+  font-stretch: semi-expanded;
+}
+
+.about .link--icon {
+  margin-right: 0.8em;
+}
+
+.about .btn--outline {
+  margin-right: 1em;
+  border-radius: 90px;
+  font-weight: bold;
+  font-size: 0.8rem;
+  text-align: center;
+  text-transform: none;
+  padding: 1rem;
+}
+
+@media (max-width: 600px) {
+  .app .about {
+    align-items: flex-start;
+    margin-top: 2em;
+  }
+}
